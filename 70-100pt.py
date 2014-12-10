@@ -96,6 +96,7 @@ class myApp(object):
             rocket1Fired = True
            
     def collisionDetect(self, rocket):
+        if 
         rx1,ry1,rx2,ry2 = drawpad.coords(rocket)
 app = myApp(root)
 root.mainloop()
